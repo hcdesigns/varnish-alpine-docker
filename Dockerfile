@@ -1,7 +1,7 @@
 FROM alpine:3.7
-MAINTAINER  Thiago Figueiro <thiagocsf@gmail.com>
 
-ENV REFRESHED_AT 2017-12-09
+LABEL maintainer="Harvey Chow <harvey@hcdesigns.nl>"
+
 ENV VARNISH_BACKEND_ADDRESS 192.168.10.10
 ENV VARNISH_MEMORY 1G
 ENV VARNISH_BACKEND_PORT 80
